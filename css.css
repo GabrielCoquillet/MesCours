@@ -1,12 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 a.active{
     color: blue
 }
 
-a{
-    text-decoration: none;
+a.header{
+    float: right;
+    color: black;
     text-align: center;
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: yellow;
-    border-radius: 5px;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Rubik";
+    line-height: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+a.logo{
+    float: left;
+    font-family: "Nunito";
+    font-size: 30px;
+}
+a.header.active{
+    background-color: #F5CB5C;
+    color: black;
+}
+
+a.header:hover{
+    background-color: #ddd;
+    color: black;
 }
